@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: #f3f3f3;
+    font-family: "Poppins", sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+}
+button{
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}

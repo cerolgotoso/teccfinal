@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.25rem;
+    padding-block: 1.5rem;
+}
+.header_logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.nav_ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+}
